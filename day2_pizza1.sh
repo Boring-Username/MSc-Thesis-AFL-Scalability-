@@ -1,0 +1,10 @@
+#! /bin/bash
+echo 'Script for day 2, pizza box 1'
+echo 'goal is to run case 3-5 twice and 1-1 once'
+./multimaster.sh 1 3 5
+./multimaster.sh 2 3 5
+./multimaster.sh 1 1 1
+
+screen -ls
+
+echo 'Done boss'
